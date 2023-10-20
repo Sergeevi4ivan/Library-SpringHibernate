@@ -101,16 +101,21 @@
 
 >INSERT INTO person(name, age) VALUES ('Иванов Иван Иванович', 2000);
 
->INSERT INTO person(name, age) VALUES ('Путин Владимир Владимирович', 38);
+>INSERT INTO person(name, age) VALUES ('Путин Владимир Владимирович', 1952);
 
->INSERT INTO person(name, age) VALUES ('Жириновский Владимир Вольфович', 41);
+>INSERT INTO person(name, age) VALUES ('Жириновский Владимир Вольфович', 1946);
 
 
-INSERT INTO Book(person_id, title, author, year_production) VALUES (1, 'Психопатология обыденной жизни', 'Зигмунд Фрейд', 1904);
-INSERT INTO Book(person_id, title, author, year_production) VALUES (2, 'Война и мир', 'Лев Николаевич Толстой', 1873);
-INSERT INTO Book(person_id, title, author, year_production) VALUES (3, 'Герой нашего времени', 'Михаил Юрьевич Лермонтов', 1841);
-INSERT INTO Book(person_id, title, author, year_production) VALUES (4, 'му-му', 'Иван Сергеевич Тургенев', 1852);
+>INSERT INTO Book(person_id, title, author, year_production) VALUES (1, 'Психопатология обыденной жизни', 'Зигмунд Фрейд', 1904);
 
-INSERT INTO Book(title, author, year_production) VALUES ('Дубровский', 'Александр Сергеевич Пушкин', 1841);
-INSERT INTO Book(title, author, year_production) VALUES ('Каштанка', 'Антон Павлович Чехов', 1887);
-INSERT INTO Book(title, author, year_production) VALUES ('Лошадиная фамилия', 'Антон Павлович Чехов', 1885);
+>INSERT INTO Book(person_id, title, author, year_production) VALUES (2, 'Война и мир', 'Лев Николаевич Толстой', 1873);
+
+>INSERT INTO Book(person_id, title, author, year_production) VALUES (3, 'Герой нашего времени', 'Михаил Юрьевич Лермонтов', 1841);
+
+>INSERT INTO Book(person_id, title, author, year_production) VALUES (4, 'му-му', 'Иван Сергеевич Тургенев', 1852);
+
+>INSERT INTO Book(title, author, year_production) VALUES ('Дубровский', 'Александр Сергеевич Пушкин', 1841);
+
+>INSERT INTO Book(title, author, year_production) VALUES ('Каштанка', 'Антон Павлович Чехов', 1887);
+
+>INSERT INTO Book(title, author, year_production) VALUES ('Лошадиная фамилия', 'Антон Павлович Чехов', 1885);
